@@ -4,7 +4,7 @@ exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
     specs: ['index.js'],
     onPrepare: ()=> {
-        browser.driver.manage().window().maximize()git ;
+        browser.driver.manage().window().maximize();
     },
     capabilities: {
         'browserName': 'chrome'
